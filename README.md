@@ -1,16 +1,6 @@
 # audio_player
 
-A new Flutter project.
+A good music player project with a beautiful template screen.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![doll](https://user-images.githubusercontent.com/93655628/165044415-1323145f-f391-4260-a1b0-3b75bb004013.png)
+![doll2](https://user-images.githubusercontent.com/93655628/165044430-6fa6673a-b829-44f8-b54f-e600bd2abe7e.png)
