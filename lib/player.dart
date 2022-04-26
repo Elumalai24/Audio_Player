@@ -3,8 +3,7 @@ import 'dart:core';
 import 'package:flutter/material.dart';
 
 var icon = Icons.play_arrow;
-//bool selected = false;
-//List<bool> works = [false, false, false, false, false];
+
 Widget musicDetails(String title, String singer) {
   return InkWell(
     child: Container(
@@ -46,28 +45,15 @@ Widget musicDetails(String title, String singer) {
                     child: Icon(
                       icon,
                       color: Colors.black38,
-                    )
-                    //IconButton(icon: Icon(icon), onPressed: () => func())
-
-                    ),
+                    )),
               ),
-              onTap: () {
-                // func( false);
-              },
+              onTap: () {},
             ),
           ],
         )),
     onTap: () {},
   );
 }
-
-// void func(bool) {
-//   if (hi == false) {
-//     icon = Icons.pause;
-//   } else {
-//     icon = Icons.play_arrow;
-//   }
-// }
 
 class Player extends StatefulWidget {
   const Player({Key? key}) : super(key: key);
@@ -79,11 +65,9 @@ class Player extends StatefulWidget {
 class _PlayerState extends State<Player> {
   dynamic color = Colors.pink[50];
 
-  //IconData playIcon = Icons.play_arrow;
   late String title;
   late String singer;
 
-  // late String icon;
   List listes = [
     {'title': 'Arabic Kuthu', 'singer': 'Aniruth'},
     {'title': 'Summa Surunu', 'singer': 'Imman'},
@@ -112,7 +96,6 @@ class _PlayerState extends State<Player> {
               ),
               const SizedBox(height: 60),
               Row(
-                /*  */
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   InkWell(
