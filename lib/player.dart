@@ -112,6 +112,7 @@ class _PlayerState extends State<Player> {
               ),
               const SizedBox(height: 60),
               Row(
+                /*  */
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   InkWell(
