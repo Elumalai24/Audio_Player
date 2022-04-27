@@ -3,7 +3,8 @@ import 'dart:core';
 import 'package:flutter/material.dart';
 
 var icon = Icons.play_arrow;
-
+bool isPlaying = false;
+bool audioPlaying = false;
 Widget musicDetails(String title, String singer) {
   return InkWell(
     child: Container(
