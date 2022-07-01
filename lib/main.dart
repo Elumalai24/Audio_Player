@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-import 'mainScreen.dart';
+import 'home_screen.dart';
 
 void main(List<String> args) {
   runApp(const MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: MyApp(),
+    home: HomeScreen(),
   ));
 }
